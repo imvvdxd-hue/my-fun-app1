@@ -18,7 +18,7 @@ st.title("AAJ TO KISI KA BIRTHDAY HAY 🥳")
 st.divider()
 
 # --- Question 1 ---
-c1 = st.text_input("1. What is today's date? (Format: 28th)", key="q1")
+c1 = st.text_input("1. What is today's date? (Format: __th)", key="q1")
 
 if c1:
     if "28" in c1:
