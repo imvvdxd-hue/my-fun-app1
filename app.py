@@ -14,7 +14,7 @@ st.markdown(
 
 # 2. Title & Cartoon Character Image
 st.title("Welcome to My Fun Page! 🚀")
-st.image(""cinnamoroll.png")
+st.image("cinnamoroll.png")
 
 # 3. Audio / Song
 st.subheader("🎵 Listen to Kyary Pamyu Pamyu - CANDY CANDY")
