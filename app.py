@@ -66,12 +66,15 @@ if c5:
 # 5. Submit Button
 if st.button("Submit"):
     st.balloons()
-    st.success(f"HAPPY BIRTHDAY TO ONE OF THE MOST IMPORTANT PERSON IN MY LIFE!!!
-                  Today is really a great day because today is the day you were born. You mean really a lot to me
-                  Ye jo link ki jhan jhad may kara tha it was for this only :). Anyways jaysay taysay ban gaiya,but the most
-                  important thing is I was able to complete it before ur birthday. Idk aapki kya value have dusro ki life may 
-                  for me u matter the most,I want to see you happy ur whole life with or without me.
-                  May Allah help you get past all the difficulties u r facing and bring lot of joy in ur life
-                  May Allah make you a sucessful cadiologist, may He help u in this world and akhirah
-                  May Allah keep ur eyes ur smile ur laugh ur happiness the whole you safe
-                  Ameen.")
+    # 5. Submit Button
+if st.button("Submit"):
+    st.balloons()
+    st.success(f"""HAPPY BIRTHDAY TO ONE OF THE MOST IMPORTANT PERSON IN MY LIFE!!!
+
+Today is really a great day because today is the day you were born. You mean really a lot to me
+Ye jo link ki jhan jhad may kara tha it was for this only :). Anyways jaysay taysay ban gaiya, but the most important thing is I was able to complete it before ur birthday.
+Idk aapki kya value hay dusro ki life may but for me u matter the most, I want to see you happy ur whole life with or without me.
+May Allah help you get past all the difficulties you are facing and bring lot of joy in your life
+May Allah make you a successful cardiologist, may He help you in this world and akhirah
+May Allah keep your eyes, your smile, your laugh, your happiness the whole you safe from shaitan and any nazar
+Ameen.""")
