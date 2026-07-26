@@ -69,9 +69,7 @@ if c1:
                     st.divider()
 
 
-# 5. Submit Button
-if st.button("Submit"):
-    st.balloons()
+
     # 5. Submit Button
 if st.button("Submit"):
     st.balloons()
