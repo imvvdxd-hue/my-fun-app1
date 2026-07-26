@@ -17,9 +17,8 @@ st.title("Welcome to My Fun Page! 🚀")
 st.image("https://upload.wikimedia.org/wikipedia/en/a/a6/SpongeBob_SquarePants_character.svg", width=200)
 
 # 3. Audio / Song
-st.subheader("🎵 Listen to the track:")
-st.audio("https://example.com/path-to-your-candy-candy-song.mp3")
-
+st.subheader("🎵 Listen to Kyary Pamyu Pamyu - CANDY CANDY")
+st.video("https://www.youtube.com/watch?v=UoK8DaJRDaM")
 # 4. Interactive Questions
 st.divider()
 name = st.text_input("What is your name?")
