@@ -12,6 +12,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.title("AAJ TO KISI KA BIRTHDAY HAY 🫣")
 
 # 4. Interactive Questions
 st.divider()
@@ -79,9 +80,9 @@ Ameen.""")
 
 
 # 2. Title & Cartoon Character Image
-st.title("Welcome to My Fun Page! 🚀")
+
 st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNnF9zhdoqkh_p8IzgeHW3LbDhKGVWAKmCIQ3YeRZ1_STu9EZnm6T2T6Hn&s=10")
 
 # 3. Audio / Song
-st.subheader("🎵 Listen to Kyary Pamyu Pamyu - CANDY CANDY")
+st.subheader("Aapka fav CANDY CANDY🎵")
 st.video("https://www.youtube.com/watch?v=UoK8DaJRDaM")
