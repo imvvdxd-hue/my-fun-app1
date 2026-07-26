@@ -14,7 +14,7 @@ st.markdown(
 
 # 2. Title & Cartoon Character Image
 st.title("Welcome to My Fun Page! 🚀")
-st.image("https://upload.wikimedia.org/wikipedia/en/a/a6/SpongeBob_SquarePants_character.svg", width=200)
+st.image(""cinnamoroll.png")
 
 # 3. Audio / Song
 st.subheader("🎵 Listen to Kyary Pamyu Pamyu - CANDY CANDY")
