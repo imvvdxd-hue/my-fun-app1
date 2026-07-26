@@ -19,48 +19,54 @@ st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNnF9zhdoqkh_p8I
 # 3. Audio / Song
 st.subheader("🎵 Listen to Kyary Pamyu Pamyu - CANDY CANDY")
 st.video("https://www.youtube.com/watch?v=UoK8DaJRDaM")
-# 4. Interactive Questions
-st.divider()
+
 # 4. Interactive Questions
 st.divider()
 
 # --- Question 1 ---
 c1 = st.text_input("1. What is today's date? (Format: 28th)", key="q1")
+
 if c1:
     if "28" in c1:
         st.write("✨ Oh I heard a princess was born today!!")
     else:
         st.write("😜 Today is 28th lozer, a princess was born today")
 
-# --- Question 2 ---
-c2 = st.text_input("2. Do you know the princess? I heard she is from heaven (Yes/No):", key="q2")
-if c2:
-    if c2.strip().lower() in ["yes", "y"]:
-        st.write("Me too kind of")
-    else:
-        st.write("How dumb can someone be")
-    st.write("Well idc if uk ik her she is super cute and adorable I want to meet her one day 💕")
+    # --- Question 2 (only appears if Q1 is answered) ---
+    c2 = st.text_input("2. Do you know the princess? I heard she is from heaven (Yes/No):", key="q2")
+    
+    if c2:
+        if c2.strip().lower() in ["yes", "y"]:
+            st.write("Me too kind of")
+        else:
+            st.write("How dumb can someone be")
+        st.write("Well idc if uk ik her she is super cute and adorable I want to meet her one day 💕")
 
-# --- Question 3 ---
-c3 = st.text_input("3. So what is ur fav cartoon character?:", key="q3")
-if c3:
-    st.write(f"Hmmmm **{c3}** is perfect!")
+        # --- Question 3 (only appears if Q2 is answered) ---
+        c3 = st.text_input("3. So what is ur fav cartoon character?:", key="q3")
+        
+        if c3:
+            st.write(f"Hmmmm **{c3}** is perfect!")
 
-# --- Question 4 ---
-c4 = st.text_input("4. Anyways did u get any idea who is the princess? (Yes/No):", key="q4")
-if c4:
-    if c4.strip().lower() in ["yes", "y"]:
-        st.write("Who is it??? >_<")
-    else:
-        st.write("Come on u r not so dumb, uk her, think!!!!")
+            # --- Question 4 (only appears if Q3 is answered) ---
+            c4 = st.text_input("4. Anyways did u get any idea who is the princess? (Yes/No):", key="q4")
+            
+            if c4:
+                if c4.strip().lower() in ["yes", "y"]:
+                    st.write("Who is it??? >_<")
+                else:
+                    st.write("Come on u r not so dumb, uk her, think!!!!")
 
-# --- Question 5 ---
-c5 = st.text_input("5. Tell me who is the pari!!!!:", key="q5")
-if c5:
-    if c5.strip().lower() in ["hibbah", "hibbu", "hibbi"]:
-        st.write("🎉 Oh yaaaa!!!! the nonchalant girl I have been talking to")
-    else:
-        st.write("It is my cutie Hibbah -_-, who else can u even think about apart from her")
+                # --- Question 5 (only appears if Q4 is answered) ---
+                c5 = st.text_input("5. Tell me who is the pari!!!!:", key="q5")
+                
+                if c5:
+                    if c5.strip().lower() in ["hibbah", "hibbu", "hibbi"]:
+                        st.write("🎉 Oh yaaaa!!!! the nonchalant girl I have been talking to")
+                    else:
+                        st.write("It is my cutie Hibbah -_-, who else can u even think about apart from her")
+
+                    st.divider()
 
 
 # 5. Submit Button
