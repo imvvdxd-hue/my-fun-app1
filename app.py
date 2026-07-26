@@ -5,7 +5,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #fce4ec; /* Soft Pink Black Background */
+        background-color: #fce4ec; /* Soft Pink  Background */
     }
     </style>
     """,
@@ -18,7 +18,7 @@ st.image("https://upload.wikimedia.org/wikipedia/en/a/a6/SpongeBob_SquarePants_c
 
 # 3. Audio / Song
 st.subheader("🎵 Listen to the track:")
-st.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3")
+st.audio("https://example.com/path-to-your-candy-candy-song.mp3")
 
 # 4. Interactive Questions
 st.divider()
