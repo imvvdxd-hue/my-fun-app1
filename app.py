@@ -12,7 +12,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("AAJ TO KISI KA BIRTHDAY HAY 🫣")
+st.title("AAJ TO KISI KA BIRTHDAY HAY 🥳")
 
 # 4. Interactive Questions
 st.divider()
