@@ -23,7 +23,7 @@ st.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3")
 # 4. Interactive Questions
 st.divider()
 name = st.text_input("What is your name?")
-favorite_color = st.selectbox("Pick your favorite color:", ["Red", "Blue", "Green", "Yellow","white])
+favorite_color = st.selectbox("Pick your favorite color:", ["Red", "Blue", "Green", "Yellow","White"])
 
 # 5. Submit Button
 if st.button("Submit"):
