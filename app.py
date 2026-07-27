@@ -40,7 +40,7 @@ if c1:
         c3 = st.text_input("3. So what is ur fav cartoon character?:", key="q3")
         
         if c3:
-            st.write(f"Hmmmm **{c3}** is perfect!")
+            st.write(f"Hmmmm ok")
 
             # --- Question 4 (only appears if Q3 is answered) ---
             c4 = st.text_input("4. Anyways did u get any idea who is the princess? (Yes/No):", key="q4")
