@@ -24,7 +24,7 @@ if c1:
     if "28" in c1:
         st.write("✨ Oh I heard a princess was born today!!")
     else:
-        st.write("😜 Today is 28th lozer, a princess was born today")
+        st.write("Today is 28th lozer, a princess was born today")
 
     # --- Question 2 (only appears if Q1 is answered) ---
     c2 = st.text_input("2. Do you know the princess? I heard she is from heaven (Yes/No):", key="q2")
