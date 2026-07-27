@@ -67,7 +67,7 @@ if c1:
    # --- Submit Button (only appears after all 5 questions!) ---
                     if st.button("Submit", key="submit_btn"):
                         st.balloons()
-                        st.success(f"""HAPPY BIRTHDAY TO ONE OF THE MOST IMPORTANT PERSON IN MY LIFE!!!
+                        st.warning(f"""HAPPY BIRTHDAY TO ONE OF THE MOST IMPORTANT PERSON IN MY LIFE!!!
 
 Today is really a great day because today is the day you were born. You mean really a lot to me
 Ye jo link ki jhan jhad may kara tha it was for this only :). Anyways jaysay taysay ban gaiya, but the most important thing is I was able to complete it before ur birthday. Idk aapki kya value hay dusro ki life may but for me u matter the most, I want to see you happy ur whole life with or without me.
