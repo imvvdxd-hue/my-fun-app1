@@ -70,8 +70,9 @@ if c1:
                         st.warning(f"""HAPPY BIRTHDAY TO ONE OF THE MOST IMPORTANT PERSON IN MY LIFE!!!
 
 Today is really a great day because today is the day you were born. You really mean a lot to me.
-Ye jo link ki jhan jhad may kara tha it was for this only :). Anyways jaysay taysay ban gaiya, but the most important thing is I was able to complete it before your birthday. 
-Idk aapki kya value hay dusro ki life may but for me u matter the most, I want to see you happy your whole life with or without me.
+Ye jo link ki jhan jhad may kara tha it was for this only :). Anyways jaysay taysay ban gaiya, but the most important thing is I was able to complete it before your birthday.
+Idk aapki kya value hay dusro ki life may but for me you matter the most, even tho u say idc, act non chalant I still find you the most mesmerising person.\n
+I want to see you happy your whole life with or without me.\n
 May Allah help you get past all the difficulties you are facing and bring lot of joy in your life.
 May Allah make you a successful cardiologist, may He help you in this world and akhirah.
 May Allah keep your eyes,your lips, your nosy, your smile, your laugh, your happiness the whole you safe from any nazar and any thing that hurts you
